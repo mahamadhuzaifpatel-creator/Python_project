@@ -23,7 +23,7 @@ def print_header(title):
     print_separator()
 
 def main():
-    print_header("AI-BASED RESUME SCREENING SYSTEM")
+    print_header("RESUME SCREENING SYSTEM")
     
     # Step 1: Dataset Generation
     if not os.path.exists(DATASET_PATH):
@@ -120,7 +120,7 @@ def main():
         choice = input("Select an option (1-4): ").strip()
         
         if choice == "4":
-            print("\nExiting. Thank you for using the AI Resume Screening System!")
+            print("\nExiting. Thank you for using the Resume Screening System!")
             break
             
         resume_text = ""

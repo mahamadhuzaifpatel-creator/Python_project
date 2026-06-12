@@ -17,7 +17,7 @@ PLOTS_DIR = "plots"
 
 # Set Streamlit Page Configuration
 st.set_page_config(
-    page_title="AI Resume Screening Dashboard",
+    page_title="Resume Screening Dashboard",
     page_icon="💼",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -257,7 +257,7 @@ predictor = ResumePredictor(MODELS_DIR)
 # Header Hero Section
 st.markdown("""
 <div class="hero-container">
-    <div class="title-gradient">AI-Based Resume Screening System</div>
+    <div class="title-gradient">Resume Screening System</div>
     <div class="subtitle-text">Transforming recruitment with Natural Language Processing. Upload candidate profiles, screen fits, extract domain skills, and evaluate accuracy metrics instantly.</div>
 </div>
 """, unsafe_allow_html=True)
@@ -625,7 +625,7 @@ with tab_abstract:
     with col_desc:
         st.markdown("""
         #### Abstract:
-        Traditional manual screening of resumes is a tedious, error-prone, and time-consuming process for HR professionals, especially when handling thousands of applications. This project implements a Python-based **AI-Based Resume Screening System** designed to automate the initial resume filtering stage. 
+        Traditional manual screening of resumes is a tedious, error-prone, and time-consuming process for HR professionals, especially when handling thousands of applications. This project implements a Python-based **Resume Screening System** designed to automate the initial resume filtering stage. 
         
         The system utilizes Natural Language Processing (NLP) to clean and preprocess resume texts (e.g., lowercasing, removing punctuation, hyperlinks, and stopwords) and extracts structural features using Term Frequency-Inverse Document Frequency (TF-IDF). A supervised machine learning model (Logistic Regression) is trained to classify the preprocessed resumes into six prominent job profiles: *Data Science, Web Development, Java Developer, Python Developer, Testing,* and *HR*. 
         
@@ -644,7 +644,7 @@ with tab_abstract:
         st.markdown("""
         <div class="glass-card" style="border-left: 4px solid #3FE7D5;">
             <h4 style="margin: 0 0 10px 0; color: white;">Course Credentials</h4>
-            <p style="margin: 0 0 6px 0; font-size: 0.9rem; color:#8E9AAF;"><b>Project Name:</b><br>AI-Based Resume Screening System</p>
+            <p style="margin: 0 0 6px 0; font-size: 0.9rem; color:#8E9AAF;"><b>Project Name:</b><br>Resume Screening System</p>
             <p style="margin: 0 0 6px 0; font-size: 0.9rem; color:#8E9AAF;"><b>Target Scope:</b><br>Data Science Mini Project</p>
             <p style="margin: 0 0 6px 0; font-size: 0.9rem; color:#8E9AAF;"><b>Student Name:</b><br>[Your Name]</p>
             <p style="margin: 0 0 6px 0; font-size: 0.9rem; color:#8E9AAF;"><b>Roll Number:</b><br>[Your Roll Number]</p>

@@ -1,4 +1,4 @@
-# AI-Based Resume Screening System
+# Resume Screening System
 
 An advanced Python for Data Science and Natural Language Processing (NLP) mini project that automates the screening and classification of resumes into various job categories, extracts technical skills, and displays interactive analytics. Suitable for college mini projects and built with a premium Streamlit web interface.
 
@@ -8,7 +8,7 @@ An advanced Python for Data Science and Natural Language Processing (NLP) mini p
 
 In the modern corporate recruiting environment, human resource departments are inundated with hundreds or thousands of resumes for a single job opening. Manually screening each profile to match candidates with appropriate roles is an extremely labor-intensive, time-consuming, and error-prone process. 
 
-This project presents an **AI-Based Resume Screening System** designed to solve this problem by automating the initial stages of resume filtering. The system utilizes Natural Language Processing (NLP) to clean and preprocess raw text from uploaded PDF resumes (handling lowercasing, punctuation removal, stripping hyperlinks, emails, hashtags, and removing NLTK English stopwords). Features are extracted using the **Term Frequency-Inverse Document Frequency (TF-IDF)** vectorization model. A supervised machine learning classifier using **Logistic Regression** is trained on a labeled dataset of resumes to classify applicants into six major job roles: 
+This project presents a **Resume Screening System** designed to solve this problem by automating the initial stages of resume filtering. The system utilizes Natural Language Processing (NLP) to clean and preprocess raw text from uploaded PDF resumes (handling lowercasing, punctuation removal, stripping hyperlinks, emails, hashtags, and removing NLTK English stopwords). Features are extracted using the **Term Frequency-Inverse Document Frequency (TF-IDF)** vectorization model. A supervised machine learning classifier using **Logistic Regression** is trained on a labeled dataset of resumes to classify applicants into six major job roles: 
 1. **Data Science**
 2. **Web Development**
 3. **Java Developer**
@@ -126,7 +126,7 @@ When compiling your project report, you can add screenshots matching the followi
      - `Extracted Skills: Git, Jupyter Notebook, NumPy, Pandas, Python, Scikit-Learn, PyTorch, SQL...`
 
 3. **Streamlit App - Main Screener View**:
-   - Displays a dark/light responsive layout featuring a title "AI-Based Resume Screening System" with a background blue-to-red color gradient.
+   - Displays a dark/light responsive layout featuring a title "Resume Screening System" with a background blue-to-red color gradient.
    - Shows the file uploader widget. Uploading a PDF will display a success message: `Successfully extracted text from uploaded PDF!`.
    - Displays two responsive visual cards showing the prediction details: **Predicted Match Role** and **Profile Match Strength (Confidence %)**, accompanied by a clean green progress bar.
    - Features categorized colored tags (purple and blue) representing the extracted technical skills.
@@ -143,7 +143,7 @@ When compiling your project report, you can add screenshots matching the followi
 
 Here are the most common questions asked during academic project presentations (Vivas) for this project:
 
-#### Q1: What is the main objective of the AI-Based Resume Screening System?
+#### Q1: What is the main objective of the Resume Screening System?
 **A:** The objective is to automate the initial phase of recruitment by parsing resumes, predicting the most appropriate job category (from a list of target roles) using a trained Machine Learning model, and extracting key technical skills using NLP.
 
 #### Q2: What NLP text preprocessing steps are performed on the resume text, and why?
