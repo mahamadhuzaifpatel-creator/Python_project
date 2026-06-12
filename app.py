@@ -646,8 +646,7 @@ with tab_abstract:
             <h4 style="margin: 0 0 10px 0; color: white;">Course Credentials</h4>
             <p style="margin: 0 0 6px 0; font-size: 0.9rem; color:#8E9AAF;"><b>Project Name:</b><br>Resume Screening System</p>
             <p style="margin: 0 0 6px 0; font-size: 0.9rem; color:#8E9AAF;"><b>Target Scope:</b><br>Data Science Mini Project</p>
-            <p style="margin: 0 0 6px 0; font-size: 0.9rem; color:#8E9AAF;"><b>Student Name:</b><br>[Your Name]</p>
-            <p style="margin: 0 0 6px 0; font-size: 0.9rem; color:#8E9AAF;"><b>Roll Number:</b><br>[Your Roll Number]</p>
+            <p style="margin: 0 0 6px 0; font-size: 0.9rem; color:#8E9AAF;"><b>Team Name:</b><br>Team Sparkit</p>
         </div>
         
         <div class="glass-card" style="border-left: 4px solid #f7768e;">
